@@ -1,8 +1,8 @@
 # Prerequisites
 
 1.  Download node https://nodejs.org/en/download/
-1.  Open `terminal.app` and type `git 1. 1. version`, which will either show a version or ask you to install. If it asks to install, follow.
-1.  Verify both above installed by typing `node 1. 1. version` (make sure it shows some kinda version). Then type `git 1. 1. version` (make sure it shows some kinda version)
+1.  Open `terminal.app` and type `git --version`, which will either show a version or ask you to install. If it asks to install, follow.
+1.  Verify both above installed by typing `node --version` (make sure it shows some kinda version). Then type `git --version` (make sure it shows some kinda version)
 
 # Initial Instructions
 
