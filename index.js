@@ -6,12 +6,12 @@ const fetch = require('node-fetch')
 
 // This i the site we're checking
 // In this case, we're just going to a google page that'll give us the time
-const siteToCheckForShit = 'https://www.google.com/search?q=what+time+is+it'
+const siteToCheckForShit = 'https://www.walmart.com/ip/PlayStation-5-Console/363472942'
 
 // This is what you're looking for in a page
 // In this case, it'll check to see the time
 // At which point, once it hits the time, we'll get an alert
-const shitYoureCheckingFor = '6:33 PM'
+const shitYoureCheckingFor = 'This item is unavailable'
 
 // we use notifier library to send a notification 
 function sendNotification(title, message){
@@ -42,6 +42,8 @@ async function checkSiteForShit(){
   } else {
     // no
     console.log( 'hasWhatWeAreLookingFor', hasWhatWeAreLookingFor) // log to console
+    console.log('data', data) // log html when failing
+
     sendNotification('checkSiteForShit', "does NOT have what we are looking for :(") // show notification
   }
 
