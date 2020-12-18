@@ -1,0 +1,12 @@
+{
+  "name": "limit-bot-playground",
+  "version": "1.0.0",
+  "description": "playground for limit to learn to build a bot",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-notifier": "^9.0.0"
+  }
+}
