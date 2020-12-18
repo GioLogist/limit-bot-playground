@@ -22,6 +22,7 @@
 1. Go to this project/repo folder `cd ~/Desktop/limit-bot-playground`
 1. **Optional** Update the code `git pull -r`
 1. Run the script `node index.js`
+1. Get creative, break it, edit all the variables, fuck it up. Put it back together. Worst case, just delete the folder and repeat initial instructions.
 # Things to look out for
 
 - Whenever running `node index.js`, make sure you're already in the repo folder (limit-bot-playground). You can ensure this by typing `cd ~/Desktop/limit-bot-playground` in terminal
